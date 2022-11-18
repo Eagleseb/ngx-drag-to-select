@@ -21,6 +21,7 @@
 
     <mat-checkbox data-cy="selectOnClick" [(ngModel)]="selectOnClick">Select on Click</mat-checkbox>
     <mat-checkbox data-cy="selectOnDrag" [(ngModel)]="selectOnDrag">Select on Drag</mat-checkbox>
+    <mat-checkbox data-cy="additive" [(ngModel)]="additive">Additive</mat-checkbox>
     <mat-checkbox data-cy="dragOverItems" [(ngModel)]="dragOverItems">Drag Over Items</mat-checkbox>
     <mat-checkbox data-cy="disable" [(ngModel)]="disable">Disable</mat-checkbox>
     <mat-checkbox data-cy="disableEvenItems" [(ngModel)]="disableEvenItems">Disable even items</mat-checkbox>
@@ -46,6 +47,7 @@
         [disabled]="disable"
         [disableRangeSelection]="disableRangeSelection"
         [selectOnClick]="selectOnClick"
+        [additive]="additive"
         [selectOnDrag]="selectOnDrag"
         [selectWithShortcut]="selectWithShortcut"
         [dragOverItems]="dragOverItems"
